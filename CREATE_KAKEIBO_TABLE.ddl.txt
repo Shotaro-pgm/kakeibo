@@ -1,0 +1,8 @@
+create table kakeibo(
+	id int not null auto_increment,
+	date date not null,
+	payplace varchar(90) not null,
+	paysummary varchar(300) not null,
+	paymoney int not null,
+	primary key(id)
+);
